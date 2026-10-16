@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
     <name>CombatExtended-SimpleSidearms Compatibility Module - Loadouts</name>
-    <author>eebette</author>
-    <packageId>eebette.CESimpleSidearmsCompat.Loadouts</packageId>
+    <author>Sifu-Hotman</author>
+    <packageId>SifuHotman.CESimpleSidearmsCompat.Loadouts</packageId>
     <supportedVersions>
         <li>1.6</li>
     </supportedVersions>
@@ -31,15 +31,15 @@ Requires the CombatExtended-SimpleSidearms Compatibility Patch.</description>
             <steamWorkshopUrl>steam://url/CommunityFilePage/2890901044</steamWorkshopUrl>
         </li>
         <li>
-            <packageId>eebette.CESimpleSidearmsCompat</packageId>
+            <packageId>SifuHotman.CESimpleSidearmsCompat</packageId>
             <displayName>CombatExtended-SimpleSidearms Compatibility Patch</displayName>
-            <downloadUrl>https://github.com/eebette/CombatExtended-SimpleSidearms-Compatibility-Patch</downloadUrl>
+            <downloadUrl>https://github.com/Sifu-Hotman/CombatExtended-SimpleSidearms-Compatibility-Patch</downloadUrl>
         </li>
     </modDependencies>
     <loadAfter>
         <li>brrainz.harmony</li>
         <li>PeteTimesSix.SimpleSidearms</li>
         <li>CETeam.CombatExtended</li>
-        <li>eebette.CESimpleSidearmsCompat</li>
+        <li>SifuHotman.CESimpleSidearmsCompat</li>
     </loadAfter>
 </ModMetaData>

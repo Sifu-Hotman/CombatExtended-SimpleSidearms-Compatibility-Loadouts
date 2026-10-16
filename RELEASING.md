@@ -1,7 +1,7 @@
 # Releasing
 
 Same no-CI reality as the core patch (see its
-[RELEASING.md](https://github.com/eebette/CombatExtended-SimpleSidearms-Compatibility-Patch/blob/master/RELEASING.md)
+[RELEASING.md](https://github.com/Sifu-Hotman/CombatExtended-SimpleSidearms-Compatibility-Patch/blob/master/RELEASING.md)
 for the full rationale): compile references are the CE / Simple Sidearms /
 core-patch DLLs from local folders, none vendorable. Releases are manual local
 builds with `Assemblies/CESimpleSidearmsCompat.Loadouts.dll` committed.

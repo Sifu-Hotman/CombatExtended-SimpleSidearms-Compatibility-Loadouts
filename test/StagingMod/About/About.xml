@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
     <name>CombatExtended-SimpleSidearms Loadouts Test Staging</name>
-    <author>eebette</author>
-    <packageId>eebette.CESupplyTestStaging</packageId>
+    <author>Sifu-Hotman</author>
+    <packageId>SifuHotman.CESupplyTestStaging</packageId>
     <supportedVersions>
         <li>1.6</li>
     </supportedVersions>
@@ -19,12 +19,12 @@
             <steamWorkshopUrl>steam://url/CommunityFilePage/927155256</steamWorkshopUrl>
         </li>
         <li>
-            <packageId>eebette.CESimpleSidearmsCompat.Loadouts</packageId>
+            <packageId>SifuHotman.CESimpleSidearmsCompat.Loadouts</packageId>
             <displayName>CombatExtended-SimpleSidearms Compatibility Module - Loadouts</displayName>
-            <downloadUrl>https://github.com/eebette/CombatExtended-SimpleSidearms-Compatibility-Loadouts</downloadUrl>
+            <downloadUrl>https://github.com/Sifu-Hotman/CombatExtended-SimpleSidearms-Compatibility-Loadouts</downloadUrl>
         </li>
     </modDependencies>
     <loadAfter>
-        <li>eebette.CESimpleSidearmsCompat.Loadouts</li>
+        <li>SifuHotman.CESimpleSidearmsCompat.Loadouts</li>
     </loadAfter>
 </ModMetaData>

@@ -160,7 +160,7 @@ namespace CESupplyTestStaging
         {
             try
             {
-                bool tacticsActive = ModsConfig.IsActive("eebette.CESimpleSidearmsCompat.Tactics")
+                bool tacticsActive = ModsConfig.IsActive("SifuHotman.CESimpleSidearmsCompat.Tactics")
                     || HarmonyLib.Harmony.GetAllPatchedMethods().Any(m =>
                         HarmonyLib.Harmony.GetPatchInfo(m)?.Owners.Any(o => o.Contains("CESimpleSidearmsCompat.Tactics")) ?? false);
                 Type mod = GenTypes.GetTypeInAnyAssembly("CESSCompatTactics.TacticsMod");
@@ -3273,7 +3273,7 @@ namespace CESupplyTestStaging
                                 continue;
                             }
                             var patches = Harmony.GetPatchInfo(m);
-                            if (patches == null || !patches.Owners.Contains("eebette.CESimpleSidearmsCompat.Loadouts"))
+                            if (patches == null || !patches.Owners.Contains("SifuHotman.CESimpleSidearmsCompat.Loadouts"))
                             {
                                 missing.Add(t.Name);
                             }

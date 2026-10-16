@@ -162,7 +162,7 @@ namespace CESimpleSidearmsCompat.Loadouts
             }
 
             // Per-class patching.
-            var harmony = new Harmony("eebette.CESimpleSidearmsCompat.Loadouts");
+            var harmony = new Harmony("SifuHotman.CESimpleSidearmsCompat.Loadouts");
             int failedClasses = 0;
             foreach (System.Type type in typeof(Bootstrap).Assembly.GetTypes())
             {
