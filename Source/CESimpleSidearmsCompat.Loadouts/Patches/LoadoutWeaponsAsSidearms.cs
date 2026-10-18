@@ -185,7 +185,10 @@ namespace CESimpleSidearmsCompat.Loadouts.Patches
                 if (top != null)
                 {
                     WeaponAssingment.equipSpecificWeaponFromInventory(pawn, top,
-                        dropCurrent: false, intentionalDrop: false);
+                        dropCurrent: MiscUtils.shouldDrop(pawn,
+                            pawn.Drafted ? Enums.DroppingModeEnum.Combat : Enums.DroppingModeEnum.Calm,
+                            ignoreRecoveryChance: false),
+                        intentionalDrop: false);
                 }
             }
         }
@@ -246,7 +249,10 @@ namespace CESimpleSidearmsCompat.Loadouts.Patches
                 if (carried != null)
                 {
                     WeaponAssingment.equipSpecificWeaponFromInventory(pawn, carried,
-                        dropCurrent: false, intentionalDrop: false);
+                        dropCurrent: MiscUtils.shouldDrop(pawn,
+                            pawn.Drafted ? Enums.DroppingModeEnum.Combat : Enums.DroppingModeEnum.Calm,
+                            ignoreRecoveryChance: false),
+                        intentionalDrop: false);
                     return true;
                 }
             }
