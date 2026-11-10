@@ -14,9 +14,9 @@ LABEL="${1:-supplybench}"
 
 REPO="$(cd "$(dirname "$0")/.." && pwd)"
 COMPAT="$HOME/Projects/CombatExtended-SimpleSidearms Compatibility Patch"
-RIMWORLD="$HOME/.local/share/Steam/steamapps/common/RimWorld/RimWorldLinux"
+RIMWORLD="${RIMWORLD:-$HOME/.local/share/Steam/steamapps/common/RimWorld/RimWorldLinux}"
 GS=(gamescope -W 1600 -H 900 --)
-SAVEDATA="$COMPAT/test/SaveData"
+SAVEDATA="${SAVEDATA:-$COMPAT/test/SaveData}"
 RESULT="$SAVEDATA/bench-results-$LABEL.json"
 
 if [[ "${SKIP_BUILD:-0}" != "1" ]]; then
