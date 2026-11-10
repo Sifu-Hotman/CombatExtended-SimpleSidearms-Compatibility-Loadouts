@@ -84,7 +84,7 @@ Credit to PeteTimesSix for Simple Sidearms and the CE team for Combat Extended. 
         <li>
             <packageId>SifuHotman.CESimpleSidearmsCompat</packageId>
             <displayName>CombatExtended-SimpleSidearms Compatibility Patch</displayName>
-            <downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3835112661</downloadUrl>
+            <downloadUrl>https://github.com/Sifu-Hotman/CombatExtended-SimpleSidearms-Compatibility-Patch</downloadUrl>
             <steamWorkshopUrl>steam://url/CommunityFilePage/3835112661</steamWorkshopUrl>
         </li>
     </modDependencies>
