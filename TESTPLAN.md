@@ -9,6 +9,10 @@ writing `test-results-<scenario>.json` into the shared profile, then self-exits:
 ./test/run-supply-assert.sh supply1 SUPPLY-1-loadout-sidearms
 ```
 
+Environment overrides for every `test/run-*.sh`: `RIMWORLD=/path/to/game-binary` runs against another
+game build, for example a 1.7 depot copy, and `SAVEDATA=/path/to/profile` uses another isolated profile
+directory. Defaults are the Steam install and the repo's `test/SaveData`.
+
 `run-supply-assert.sh` exits non-zero when the run did not pass — via `test/verdict.py`,
 which also prints the failing checks (and that phase's informational checks, which exist to
 diagnose exactly that) rather than dumping sixteen phases of JSON. It fails on a crash, on a
